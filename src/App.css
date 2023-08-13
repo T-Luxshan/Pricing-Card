@@ -65,6 +65,17 @@ body {
   text-align: center;
   /* margin: -0.8rem; */
 }
+.dropDown{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: large;
+  width: 18rem;
+  height: 4rem;
+  border: solid 0.1rem #35383c;
+  border-radius: 0.2rem;
+  background-color: #23272C;
+  color: white;
+}
 .cardList {
   list-style: none;
   padding: 0.2rem;

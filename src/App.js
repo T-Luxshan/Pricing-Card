@@ -29,9 +29,14 @@ function App() {
               <div className="pricing-card cardBody">
                 <h2 className='cardHead'>Pro</h2>
                 <h1 className='cardValue'>$19<span className='cardValue-sub'>/mo</span></h1>
+                  
+                  <select className='dropDown' name="MAU" id="MAU"> 
+                      <option value="2500MAU">2500MAU</option> 
+                      <option value="300MAU">300MAU</option> 
+                      <option value="4500MAU">4500MAU</option> 
+                      <option value="5000MAU">5000MAU</option> 
+                  </select>
                     <ul className="cardList">
-                        <li className="cardList-item">500 MAUs</li>
-                        <li className="cardList-item">3 projects</li>
                         <li className="cardList-item">Unlimited guides</li>
                         <li className="cardList-item">Unlimited flows</li>
                         <li className="cardList-item">Unlimited branded themes</li>
