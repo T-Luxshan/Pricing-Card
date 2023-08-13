@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+body {
+  /* text-align: center; */
+  background-color: #191B1D;
 }
 
 .App-logo {
@@ -23,7 +24,72 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.page-head{
+  color: white;
+  text-align: center;
+  padding-top: 5rem;
+}
+.page-sub-head{
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+.wrapper{
+  /* text-align: center; */
+  margin-top: 2rem;
+  width: 90%;
+  height: 28rem;
+}
 
+.pricing-card{
+  max-height: 33rem;
+  margin: -0.2rem;
+  padding: 10rem;
+}
+.cardBody{
+  padding: 2.5rem;
+  color:white ;
+  background-color: #23272C;
+  border-radius: 0.5rem;
+}
+.cardHead{
+  text-align: center;
+  font-size: larger;
+  padding-bottom: 0.5rem;
+}
+.cardValue{
+  text-align: center;
+}
+.cardValue-sub{
+  font-size: small;
+  text-align: center;
+  /* margin: -0.8rem; */
+}
+.cardList {
+  list-style: none;
+  padding: 0.2rem;
+  font-size: medium;
+}
+.cardList-item::before {
+  content: "•";
+  font-size: 1.5rem; 
+  color: #BD1E4B;   
+  margin-right: 0.5rem; 
+}
+li{
+  padding: 0.3rem;
+}
+.choosePlanBtn {
+  border: 1px solid #BD1E4B; /* Border color */
+  color: white;
+  width: 16rem;
+  height: 3rem;
+  background-color: transparent; /* Transparent background */
+}
+.choosePlanBtn:hover {
+  background-color:  #BD1E4B; /* Change background on hover */
+  color: white; /* Text color on hover */
+}
 .App-link {
   color: #61dafb;
 }
