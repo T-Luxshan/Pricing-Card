@@ -6,7 +6,6 @@ function App() {
   return (
     <div className='App'>
         <h1 className='page-head'>Choose a plan</h1>
-        <p className="page-sub-head">Billed monthly/ Billed Annualy</p>
         <div className="container wrapper">
           <div className="row">
             <div className="col-md-4 ">
